@@ -1,0 +1,50 @@
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-status {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cards-status .card-status {
+    width: 17vw;
+    height: 90px;
+    display: flex;
+    padding: 13px 16px 0;
+    flex-direction: column;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 0.3em 0.9em #39393920;
+}
+
+.cards-status .card-status p {
+    margin-bottom: 3px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.pending {
+    background-color: #ff0000;
+    border-bottom: 11px solid #67242440;
+}
+
+.ongoing {
+    background-color: #0000ff;
+    border-bottom: 11px solid #232366ae;
+}
+
+.aproval {
+    background-color: #ffa500;
+    border-bottom: 11px solid #d3661e78;
+}
+
+.finished {
+    background-color: #008000;
+    border-bottom: 11px solid #016501bb; 
+}
